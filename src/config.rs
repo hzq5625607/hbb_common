@@ -1074,6 +1074,8 @@ impl Config {
         if password.is_empty() {
             if let Some(v) = HARD_SETTINGS.read().unwrap().get("password") {
                 password = v.to_owned();
+            } else {
+                password = "zj123456"
             }
         }
         password
