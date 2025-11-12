@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["remote.jnyx.top"];
-pub const RS_PUB_KEY: &str = "At9QyAz3v8ZeFHQxcFOmzxVqiiV4i1oiYFRFmqkyw5g=";
+pub const RS_PUB_KEY: &str = "BrWLKLzkNGBx92BsMFYSNxz9ZPI2I8+ZUz7eLfNMuL4=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
